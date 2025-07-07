@@ -1,0 +1,22 @@
+{
+  "input_dir": "F:/_src/pdf2md/pdfs",
+  "output_dir": "F:/_src/pdf2md/output",
+  "language": "ch",
+  "backend": "pipeline",
+  "method": "auto",
+  "enable_formula": true,
+  "enable_table": true,
+  "cache_dir": "./models_cache",
+  "auto_preload": true,
+  "show_progress": true,
+  "theme": "default",
+  "language_ui": "zh",
+  "timeout": "300",
+  "device": "auto",
+  "max_workers": "2",
+  "memory_limit": "4",
+  "enable_optimization": true,
+  "enable_caching": true,
+  "enable_retry": true,
+  "enable_logging": true
+}

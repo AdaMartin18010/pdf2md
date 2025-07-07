@@ -1,0 +1,36 @@
+{
+  "export_time": "2025-07-06T13:12:48.625316",
+  "current_status": "空闲",
+  "device_status": "GPU (自动检测)",
+  "memory_usage": "360.4 MB",
+  "tasks": [
+    {
+      "filename": "test1.pdf",
+      "status": "成功",
+      "progress": "100%",
+      "start_time": "10:30:15",
+      "duration": "45.2秒"
+    },
+    {
+      "filename": "test2.pdf",
+      "status": "处理中",
+      "progress": "65%",
+      "start_time": "10:31:20",
+      "duration": ""
+    },
+    {
+      "filename": "test3.pdf",
+      "status": "等待中",
+      "progress": "0%",
+      "start_time": "10:32:00",
+      "duration": ""
+    },
+    {
+      "filename": "test4.pdf",
+      "status": "失败",
+      "progress": "0%",
+      "start_time": "10:29:45",
+      "duration": "12.5秒"
+    }
+  ]
+}

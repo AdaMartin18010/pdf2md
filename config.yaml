@@ -1,0 +1,58 @@
+custom:
+  new_key: test_value
+defaults:
+  estimate_time: true
+  log_conversions: true
+  use_gpu: true
+  verbose: true
+  workers: 4
+logging:
+  file: conversion.log
+  format: '%(asctime)s - %(levelname)s - %(message)s'
+  level: INFO
+mineru_options:
+  use_gpu: true
+  backend: pipeline
+  batch_size: 4
+  formula_enable: true
+  table_enable: true
+  layout_enable: true
+  ocr_enable: true
+  image_extraction: true
+  structure_analysis: true
+  semantic_understanding: true
+  optimize_for_quality: true
+  optimize_for_speed: true
+  precision: fp16
+  num_workers: 4
+  timeout: 600
+  retry_count: 3
+  save_intermediate: true
+  parallel_inference: true
+  model_quantization: true
+  accuracy_validation: true
+  error_detection: true
+  quality_scoring: true
+  auto_correction: true
+  document_classification: true
+  content_summarization: true
+  keyword_extraction: true
+  citation_detection: true
+  image_quality_improvement: true
+  text_enhancement: true
+  background_removal: true
+  output_modes: [MM_MD, CONTENT_LIST, STRUCTURED_JSON]
+paths:
+  input: ./pdfs
+  log_dir: ./logs
+  output: ./markdown
+shutdown:
+  confirm: true
+  delay_minutes: 1
+  enabled: false
+  force: false
+time_estimation:
+  avg_time_per_mb: 2.0
+  enabled: true
+  max_time_per_file: 600.0
+  min_time_per_file: 1.0

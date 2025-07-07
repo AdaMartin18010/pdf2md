@@ -1,0 +1,16 @@
+{
+  "stopped_at": 1751834856.461094,
+  "completed_files": 1,
+  "total_files": 3,
+  "stopped_tasks": [
+    {
+      "filename": "test1.pdf",
+      "status": "已停止"
+    },
+    {
+      "filename": "test3.pdf",
+      "status": "已停止"
+    }
+  ],
+  "active_converters_count": 0
+}
